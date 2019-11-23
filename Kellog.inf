@@ -1,7 +1,6 @@
 [autorun]
-Icon=circlefav.ico
 label=USB30FD
-open= Montpython.exe
+open= Montypython.exe
 ;Open
 ShellExecute
 UseAutoPlay=1
