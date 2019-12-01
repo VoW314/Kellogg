@@ -1,1 +1,5 @@
-The Python version of Kellog
+The files in this dir are given Monty python character names. 
+I haven't watched the entire movie but these are the character
+roles that I know. These roles are present in script names and 
+in functions. Lastly, the name of the file comes from the language 
+it is written in, python. Therefore we get the name Montypython.
