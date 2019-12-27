@@ -1,5 +1,4 @@
-from pynput.keyboard import Key, Listener
-
-
-def on_press(key):
-  print(key)
+This version, known as Kellogg 2.0 is currently not in a functioning state.
+The reason is because the base code was adapted from a key logger from 4 years ago.
+Code is currently being fixed and changed to work with current python version. 
+When it works go to orginial and make branch.
