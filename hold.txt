@@ -1,0 +1,5 @@
+import pyscreenshot as ImageGrab
+
+elif k.find("enter") >0:
+  im.ImageGrab.grab()
+  im.save('screenshot.png')
