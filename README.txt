@@ -6,3 +6,7 @@ to the cereal company name, Kellogg.
 
 This is for educational purposes only. 
 
+
+First created : 11.23.19
+Finished : __.__.__
+estimated date for when it will be funtional: Fall 2020
