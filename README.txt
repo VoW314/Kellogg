@@ -10,4 +10,8 @@ This is for educational purposes only.
 First created : 11.23.19
 Finished : __.__.__
 estimated date for when it will be able to do most funtions : Fall 2020
-current functioning script: MP.py
+current functioning scripts 
+  1. MP.py
+    1b. IBG.py
+  2. rainbow.py(just for show, no practical use)
+  
