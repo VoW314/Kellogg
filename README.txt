@@ -4,14 +4,8 @@ to delete. This is a Key logger which was shortned down
 to the cereal company name, Kellogg.
 
 
-This is for educational purposes only. 
+This idea was created with a friend of mine and is likely not better than key loggers one can buy online. 
 
 
-First created : 11.23.19
+Created : 11.23.19
 Finished : __.__.__
-estimated date for when it will be able to do most funtions : Fall 2020
-current functioning scripts 
-  1. MP.py
-    1b. IBG.py
-  2. rainbow.py(just for show, no practical use)
-  
