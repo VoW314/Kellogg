@@ -1,0 +1,3 @@
+This file was orginially created when Kellogg was going to be written in js. Later I found out that python would be much easier for me. 
+The slow function would be used to pretty much crash the computer by doing too much. Then a second script would be activated which would activate the keylogger and the slow.js would be disabled.  
+I couldn't figure out how to get this to work and therefore is the reason it became a py file. 
