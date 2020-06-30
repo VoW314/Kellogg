@@ -9,3 +9,7 @@ This idea was created with a friend of mine and is likely not better than key lo
 
 Created : 11.23.19
 Finished : __.__.__
+
+
+UPDATES
+Third itteration is being developed on the local machine.
