@@ -1,6 +1,1 @@
-[autorun]
-label=USB30FD
-open= Montypython.exe
-;Open
-ShellExecute
-UseAutoPlay=1
+
