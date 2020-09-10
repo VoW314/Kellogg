@@ -4,8 +4,8 @@ The following is an idea for a keylogger I designed with a friend. Granose is th
 
 ## Why Kellogg
 1. Key + Logger = Keylogger
-```   hmmm, lets try and make it more descrete```
-2. Keylogger --> Kelogg -->
+```   hmmm, lets try and make it more descrete...```
+2. Keylogger --> Kelogg
 ```   ?```
 3. Kellogg's
 ```   Profit!```
