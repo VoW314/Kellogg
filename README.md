@@ -13,12 +13,10 @@ The following is an idea for a keylogger I designed with a friend. Granose is th
 ### What I am working on Now
 Now I am going to work on this python code
 
-### What I will work on Later
-The program will be hidden. If I were to make this a trojan then I would have to create a purpose for why one would keep it open while they work. Therefore it will be hidden as an exe. 
 
 
 #### Purpose?
-This is for educational purposes only. Yes, I know I used the word Trojan and said the program will be hidden, but I can assure anyone that this will be a mediocre attempt that will likely not be better than one that someone could buy. 
+I am just learning how this works. Was working with it with a friend and just wanted to further my understanding of how easy it would be for someone to create a program that could be eaisly deployed. Then form there to see how easy it could be hidden and work like a trojan. It is for my educational purposes and shouldn't be taken as anything else but that.
 
 
 __Created__ : 11.23.19
